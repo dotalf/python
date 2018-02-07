@@ -42,3 +42,18 @@ for j in nums:
     if num2 < j and j != num1:
        num2=j
 print num1,num2
+
+方法三：
+chars=[-2,0,2,-1,3,234,34,33]
+#max=chars[0]
+max = None
+sec = None
+for i in chars:
+    if max is None:
+        max=i
+    elif max<i :
+        sec=max
+        max=i
+    elif sec < i:
+        sec=i
+print max,sec
