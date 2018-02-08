@@ -1,0 +1,8 @@
+#encoding:utf-8
+chars=['C','js','python','js','css','js','html','node','js','python','js','css','js','html','node','js','python','js','css','js','html','node'
+,'css','js','html','node','js','python','js','css','js','html','node','js','python','js','css','js','html','node']values=raw_input('please input a value:')
+cnt=0
+for i in chars:
+    if values==i:
+        cnt+=1
+print ('%s的次数为%s') % (values,cnt)
